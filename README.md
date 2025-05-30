@@ -9,6 +9,23 @@ ___
 ## Objetivo
 Tarefa de regressão: estimar valor do plano de saúde (custos hospitalares).
 
+Utiliza o dataset insurance.csv para prever custos de seguro saúde com base em características como idade, IMC, se é fumante, etc.
+
+#
+
+## Resumo dos Resultados
+O modelo Random Forest Regressor apresentou o melhor desempenho com um R² de 87.77% e RMSE de $4357.47
+
+#
+
+## Estrutura do Repositório
+
+* `tech_challenge.ipynb`: Notebook Jupyter com toda a análise, desenvolvimento dos modelos e resultados.
+* `insurance.csv`: Conjunto de dados utilizado no projeto.
+* `requirements.txt`: Lista de dependências Python para reproduzir o ambiente.
+* `Tech-Challenge.pdf`: Versão em PDF do notebook.
+* `README.md`: Este arquivo, com a descrição e instruções do projeto.
+
 #
 
 ## Como Executar Online
@@ -60,7 +77,7 @@ pip3 install --upgrade pip
 #
 5. Instale as bibliotecas necessária no ambiente virtual:
 ```
-pip3 install -r requiriments.txt
+pip3 install -r requirements.txt
 ```
 ##
 6. Abra o JupyterLab com o Tech-Challenge:
