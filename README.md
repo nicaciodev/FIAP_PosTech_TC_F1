@@ -11,29 +11,37 @@ Tarefa de regressão: estimar valor do plano de saúde (custos hospitalares).
 
 #
 ## Como Executar No Linux
-1. Baixe o projeto:
+1. Caso necessário, instale o [git] para começar.
+
+No Debian:
 ```
-git clone "git@github.com:nicaciodev/FIAP_PosTech_TC_F1.git"
+apt-get install git
+```
+
+#
+2. Baixe o projeto:
+```
+git clone "https://github.com/nicaciodev/FIAP_PosTech_TC_F1.git" ;\
 cd FIAP_PosTech_TC_F1
 ```
 ##
-2. Crie o ambiente virtual e o ative:
+3. Crie o ambiente virtual e o ative:
 ```
-python3 -m venv env
+python3 -m venv env ;\
 source env/bin/activate
 ```
 ##
-3. Atualize o pip:
+4. Atualize o pip:
 ```
 pip3 install --upgrade pip
 ```
 #
-4. Instale as bibliotecas necessária no ambiente virtual:
+5. Instale as bibliotecas necessária no ambiente virtual:
 ```
 pip3 install -r requiriments.txt
 ```
 ##
-5. Abra o JupyterLab com o Tech-Challenge:
+6. Abra o JupyterLab com o Tech-Challenge:
 ```
 jupyter lab tech_challenge.ipynb
 ```
