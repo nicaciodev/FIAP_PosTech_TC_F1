@@ -1,2 +1,42 @@
-# FIAP_PosTech_TC_F1
-Tech-Challenge da Fase 01 da Post-Tech (FIAP)
+# FIAP / Pos-Tech / Tech Challenge / Fase 01
+___
+#### [RM363334]
+#### Robson Nicácio R. dos Santos
+___
+#
+
+
+## Objetivo
+Tarefa de regressão: estimar valor do plano de saúde (custos hospitalares).
+
+#
+## Como Executar No Linux
+1. Baixe o projeto:
+```
+git clone "git@github.com:nicaciodev/FIAP_PosTech_TC_F1.git"
+cd FIAP_PosTech_TC_F1
+```
+##
+2. Crie o ambiente virtual e o ative:
+```
+python3 -m venv env
+source env/bin/activate
+```
+##
+3. Atualize o pip:
+```
+pip3 install --upgrade pip
+```
+#
+4. Instale as bibliotecas necessária no ambiente virtual:
+```
+pip3 install -r requiriments.txt
+```
+##
+5. Abra o JupyterLab com o Tech-Challenge:
+```
+jupyter lab tech_challenge.ipynb
+```
+##
+#### Obs: Para encerrar, basta fechar o terminal ou 2x [CTRL+c] .
+#### Obs2: Também disponível em PDF, arquivo [Tech-Challenge.pdf].
