@@ -15,7 +15,8 @@ Tarefa de regressão: estimar valor do plano de saúde (custos hospitalares).
 
 No Debian:
 ```
-apt-get install git
+apt-get install git ;\
+apt install python3.11-venv
 ```
 
 #
